@@ -1,20 +1,24 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+# subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle:
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <div class="profile-socials">
+      <a href="mailto:nikola.djukic@kuleuven.be" title="Email"><i class="fa-solid fa-envelope"></i></a>
+      <a href="https://scholar.google.com/citations?user=8OXlRdAAAAAJ" title="Google Scholar"><i class="ai ai-google-scholar"></i></a>
+      <a href="https://www.linkedin.com/in/nikola-djukic2" title="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+      <a href="https://github.com/djukicn" title="GitHub"><i class="fa-brands fa-github"></i></a>
+    </div>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+social: false # includes social icons at the bottom of the page
 
 announcements:
   enabled: true # includes a list of news items
@@ -22,13 +26,50 @@ announcements:
   limit: 5 # leave blank to include all the news in the `_news` folder
 
 latest_posts:
-  enabled: true
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
+  enabled: false
+  scrollable: false # adds a vertical scroll bar if there are more than 3 new posts items
+  limit: 0 # leave blank to include all the blog posts
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](https://www.reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am fourth year PhD student at the Processing Speech and Images [(PSI) group](https://www.esat.kuleuven.be/psi) at KU Leuven, Belgium, working with [Tinne Tuytelaars](https://www.esat.kuleuven.be/psi/TT). My research interests include object-centric representation learning, multimodal learning (in particular MLLMs from a vision-centric perspective), and more recently world models.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+Prior to that, I obtained my BSc and MSc in computer and data science from the University of Ljubljana. I spent time as a student reseacher in the Bioinformatics lab working with [Blaž Zupan](https://fri.uni-lj.si/en/about-faculty/employees/blaz-zupan) on NLP before the LLM boom, and in the Visual Cognitive Systems [(ViCOS) Lab](https://www.vicos.si/) working on few-shot learning for object counting with [Matej Kristan](https://www.vicos.si/people/matej_kristan/).
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+<style>
+  article h2::first-letter {
+    text-transform: uppercase;
+  }
+</style>
+
+<style>
+  article h2::first-letter {
+    text-transform: uppercase;
+  }
+  article h2 a {
+    pointer-events: none;
+    cursor: default;
+    color: inherit;
+    text-decoration: none;
+  }
+  .profile {
+    width: 180px;
+  }
+  .profile img {
+    width: 100%;
+    height: auto;
+  }
+  .profile-socials {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-self: stretch;
+    margin-top: -0.75rem;
+    font-size: 1.3rem;
+  }
+  .profile-socials a {
+    color: inherit;
+  }
+  .profile-socials a:hover {
+    color: var(--global-theme-color);
+  }
+</style>
