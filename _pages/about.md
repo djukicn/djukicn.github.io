@@ -31,7 +31,7 @@ latest_posts:
   limit: 0 # leave blank to include all the blog posts
 ---
 
-I am fourth year PhD student at the Processing Speech and Images [(PSI) group](https://www.esat.kuleuven.be/psi) at KU Leuven, Belgium, working with [Tinne Tuytelaars](https://www.esat.kuleuven.be/psi/TT). My research interests include object-centric representation learning, multimodal learning (in particular MLLMs from a vision-centric perspective), and more recently world models.
+I am a fourth year PhD student at the Processing Speech and Images [(PSI) group](https://www.esat.kuleuven.be/psi) at KU Leuven, Belgium, working with [Tinne Tuytelaars](https://www.esat.kuleuven.be/psi/TT). My research interests include object-centric representation learning, multimodal learning (in particular MLLMs from a vision-centric perspective), and more recently world models.
 
 Prior to that, I obtained my BSc and MSc in computer and data science from the University of Ljubljana. I spent time as a student reseacher in the Bioinformatics lab working with [Blaž Zupan](https://fri.uni-lj.si/en/about-faculty/employees/blaz-zupan) on NLP before the LLM boom, and in the Visual Cognitive Systems [(ViCOS) Lab](https://www.vicos.si/) working on few-shot learning for object counting with [Matej Kristan](https://www.vicos.si/people/matej_kristan/).
 
